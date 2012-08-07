@@ -1,0 +1,206 @@
+TPLister
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/sysadmin/Downloads/PLister/xcode/./build/Debug/PLister.app/Contents/Info.plist Info.plist
+cCpResource CinderApp.icns ./build/Debug/PLister.app/Contents/Resources/CinderApp.icns
+cCopyPlistFile /Users/sysadmin/Downloads/PLister/xcode/./build/Debug/PLister.app/Contents/Resources/RECIPES.plist RECIPES.plist
+cProcessPCH++ /var/folders/ks/9njtqd251jq_5hj78zgww14r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PLister_Prefix-fbwkomfyqamtymfqxpymdtuzcdwt/PLister_Prefix.pch.pth PLister_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/PLister.build/Debug/PLister.build/Objects-normal/i386/PListerApp.o /Users/sysadmin/Downloads/PLister/xcode/../src/PListerApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk
+c000000004FD6447400000000000000EE
+t1339442292
+s238
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c000000004FF1B1D10000000000006500
+t1341239761
+s25856
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004FF1B1D10000000000025E48
+t1341239761
+s155208
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
+c000000004FF1B1D10000000000005FA8
+t1341239761
+s24488
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c000000004FF1B1D100000000000001E5
+t1341239761
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c000000004FF1B1D10000000000014894
+t1341239761
+s84116
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004E938B0E0000000000006530
+t1318292238
+s25904
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004E938B0E0000000000006560
+t1318292238
+s25952
+
+N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c000000004FD0F674000000000007CED0
+t1339094644
+s511696
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004FD0F692000000000002E350
+t1339094674
+s189264
+
+N/System/Library/Frameworks/QTKit.framework/QTKit
+c000000004FD0F69C00000000004B7F60
+t1339094684
+s4947808
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c000000004FD0F69C000000000032B7E0
+t1339094684
+s3323872
+
+N/Users/sysadmin/Downloads/PLister/xcode/../src/PListerApp.cpp
+c0000000050215C88000000000000023A
+t1344363656
+s570
+
+N/Users/sysadmin/Downloads/PLister/xcode/./build/Debug/PLister.app
+t2
+s0
+
+N/Users/sysadmin/Downloads/PLister/xcode/./build/Debug/PLister.app/Contents/Info.plist
+t2
+s0
+
+N/Users/sysadmin/Downloads/PLister/xcode/./build/Debug/PLister.app/Contents/MacOS/PLister
+t2
+s0
+
+N/Users/sysadmin/Downloads/PLister/xcode/./build/Debug/PLister.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/sysadmin/Downloads/PLister/xcode/./build/Debug/PLister.app/Contents/Resources/CinderApp.icns
+t2
+s0
+
+N/Users/sysadmin/Downloads/PLister/xcode/./build/Debug/PLister.app/Contents/Resources/RECIPES.plist
+t2
+s0
+
+N/Users/sysadmin/Downloads/PLister/xcode/./build/PLister.build/Debug/PLister.build/Objects-normal/i386/PLister.LinkFileList
+c0000000050215C890000000000000073
+t1344363657
+s115
+
+N/Users/sysadmin/Downloads/PLister/xcode/./build/PLister.build/Debug/PLister.build/Objects-normal/i386/PListerApp.o
+t2
+s0
+
+N/Users/sysadmin/Downloads/PLister/xcode/CinderApp.icns
+c0000000050213A35000000000001BEB5
+t1344354869
+s114357
+
+N/Users/sysadmin/Downloads/PLister/xcode/PLister_Prefix.pch
+c0000000050213A350000000000000093
+t1344354869
+s147
+i<Cocoa/Cocoa.h>
+
+N/Users/sysadmin/Downloads/PLister/xcode/RECIPES.plist
+c0000000050215A070000000000000825
+t1344363015
+s2085
+
+N/var/folders/ks/9njtqd251jq_5hj78zgww14r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PLister_Prefix-fbwkomfyqamtymfqxpymdtuzcdwt/PLister_Prefix.pch.pth
+t2
+s0
+
+NInfo.plist
+c0000000050213A35000000000000034D
+t1344354869
+s845
+
+CBuild AST from /Users/sysadmin/Downloads/PLister/xcode/../src/PListerApp.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies6154d20994d1b541^4e47d80994d1b541^---0#1#0#--18"Check dependencies36"633F3A2C-3E64-492B-8CCE-0F4449AF7994-
+
+CCompileC ./build/PLister.build/Debug/PLister.build/Objects-normal/i386/PListerApp.o /Users/sysadmin/Downloads/PLister/xcode/../src/PListerApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s366056458.290921
+e366056461.300291
+r0
+xCompileC
+x./build/PLister.build/Debug/PLister.build/Objects-normal/i386/PListerApp.o
+x/Users/sysadmin/Downloads/PLister/xcode/../src/PListerApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/sysadmin/Downloads/PLister/xcode/../src/PListerApp.cpp:18:5: error: use of undeclared identifier 'XmlTree'
+o    XmlTree doc(loadResource( "RECIPES.plist" ) );    
+o    ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/sysadmin/Downloads/PLister/xcode/../src/PListerApp.cppaa9c4a0a94d1b541^0cce4c0d94d1b541^-194"/Users/sysadmin/Downloads/PLister/xcode/../src/PListerApp.cpp:18:5: error: use of undeclared identifier 'XmlTree'    XmlTree doc(loadResource( "RECIPES.plist" ) );        ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@38"Use of undeclared identifier 'XmlTree'-366056461#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@68"file://localhost/Users/sysadmin/Downloads/PLister/src/PListerApp.cpp0000000000000000^17#4#17#4#292#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@77"file://localhost/Users/sysadmin/Downloads/PLister/xcode/../src/PListerApp.cpp0000000000000000^2596"CompileC ./build/PLister.build/Debug/PLister.build/Objects-normal/i386/PListerApp.o ../src/PListerApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sysadmin/Downloads/PLister/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-conversion -Wno-sign-conversion -iquote /Users/sysadmin/Downloads/PLister/xcode/./build/PLister.build/Debug/PLister.build/PLister-generated-files.hmap -I/Users/sysadmin/Downloads/PLister/xcode/./build/PLister.build/Debug/PLister.build/PLister-own-target-headers.hmap -I/Users/sysadmin/Downloads/PLister/xcode/./build/PLister.build/Debug/PLister.build/PLister-all-target-headers.hmap -iquote /Users/sysadmin/Downloads/PLister/xcode/./build/PLister.build/Debug/PLister.build/PLister-project-headers.hmap -iquote../../cinder_0.8.4_mac/include -iquote../include -I/Users/sysadmin/Downloads/PLister/xcode/build/Debug/include -I../../cinder_0.8.4_mac/boost -I/Users/sysadmin/Downloads/PLister/xcode/./build/PLister.build/Debug/PLister.build/DerivedSources/i386 -I/Users/sysadmin/Downloads/PLister/xcode/./build/PLister.build/Debug/PLister.build/DerivedSources -F/Users/sysadmin/Downloads/PLister/xcode/build/Debug -include /var/folders/ks/9njtqd251jq_5hj78zgww14r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PLister_Prefix-fbwkomfyqamtymfqxpymdtuzcdwt/PLister_Prefix.pch -MMD -MT dependencies -MF /Users/sysadmin/Downloads/PLister/xcode/./build/PLister.build/Debug/PLister.build/Objects-normal/i386/PListerApp.d --serialize-diagnostics /Users/sysadmin/Downloads/PLister/xcode/./build/PLister.build/Debug/PLister.build/Objects-normal/i386/PListerApp.dia -c /Users/sysadmin/Downloads/PLister/xcode/../src/PListerApp.cpp -o /Users/sysadmin/Downloads/PLister/xcode/./build/PLister.build/Debug/PLister.build/Objects-normal/i386/PListerApp.o36"2D8F89F7-8F16-4743-A94C-E3F59C673D20-
+
+CCopyPlistFile /Users/sysadmin/Downloads/PLister/xcode/./build/Debug/PLister.app/Contents/Resources/RECIPES.plist RECIPES.plist
+s366056457.862821
+e366056457.866511
+r1
+xCopyPlistFile
+x/Users/sysadmin/Downloads/PLister/xcode/./build/Debug/PLister.app/Contents/Resources/RECIPES.plist
+xRECIPES.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Copy RECIPES.plist49f2dc0994d1b541^edd3dd0994d1b541^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/sysadmin/Downloads/PLister/xcode/RECIPES.plist0000000000000000^267"CopyPlistFile ./build/Debug/PLister.app/Contents/Resources/RECIPES.plist RECIPES.plist    cd /Users/sysadmin/Downloads/PLister/xcode    builtin-copyPlist --outdir /Users/sysadmin/Downloads/PLister/xcode/./build/Debug/PLister.app/Contents/Resources -- RECIPES.plist36"D8AAD8F6-2B45-40F1-98F7-266CE42ED02E-
+
+CCpResource CinderApp.icns ./build/Debug/PLister.app/Contents/Resources/CinderApp.icns
+s366056457.861289
+e366056457.865529
+r1
+xCpResource
+xCinderApp.icns
+x./build/Debug/PLister.app/Contents/Resources/CinderApp.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy ./build/Debug/PLister.app/Contents/Resources/CinderApp.icns5892dc0994d1b541^e09cdd0994d1b541^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/sysadmin/Downloads/PLister/xcode/./build/Debug/PLister.app/Contents/Resources/CinderApp.icns000000000080d041^490"CpResource CinderApp.icns ./build/Debug/PLister.app/Contents/Resources/CinderApp.icns    cd /Users/sysadmin/Downloads/PLister/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/sysadmin/Downloads/PLister/xcode/CinderApp.icns /Users/sysadmin/Downloads/PLister/xcode/./build/Debug/PLister.app/Contents/Resources36"B8704D21-0FFC-4F7B-92DC-EEA462757FD5-
+
+CLd /Users/sysadmin/Downloads/PLister/xcode/./build/Debug/PLister.app/Contents/MacOS/PLister normal i386
+r0
+
+CProcessInfoPlistFile /Users/sysadmin/Downloads/PLister/xcode/./build/Debug/PLister.app/Contents/Info.plist Info.plist
+s366056457.848955
+e366056457.852812
+r1
+xProcessInfoPlistFile
+x/Users/sysadmin/Downloads/PLister/xcode/./build/Debug/PLister.app/Contents/Info.plist
+xInfo.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plist5663d90994d1b541^6952da0994d1b541^---0#0#0#-19%DVTDocumentLocation2@66"file://localhost/Users/sysadmin/Downloads/PLister/xcode/Info.plist0000000000000000^387"ProcessInfoPlistFile ./build/Debug/PLister.app/Contents/Info.plist Info.plist    cd /Users/sysadmin/Downloads/PLister/xcode    builtin-infoPlistUtility Info.plist -genpkginfo /Users/sysadmin/Downloads/PLister/xcode/./build/Debug/PLister.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/sysadmin/Downloads/PLister/xcode/./build/Debug/PLister.app/Contents/Info.plist36"1C61CBFD-8D26-45A9-B39A-2DA1E7C4FB3F-
+
+CProcessPCH++ /Users/sysadmin/Library/Developer/Xcode/DerivedData/PLister-bltnsfmfdyrqjveozylheeaynwsh/Index/PrecompiledHeaders/PLister_Prefix-gwpoijjftrmmbnbjnvzpaytemfmh_ast/PLister_Prefix.pch.pth PLister_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/ks/9njtqd251jq_5hj78zgww14r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PLister_Prefix-fbwkomfyqamtymfqxpymdtuzcdwt/PLister_Prefix.pch.pth PLister_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s366056457.874895
+e366056458.284074
+r1
+xProcessPCH++
+x/var/folders/ks/9njtqd251jq_5hj78zgww14r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PLister_Prefix-fbwkomfyqamtymfqxpymdtuzcdwt/PLister_Prefix.pch.pth
+xPLister_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection29"Precompile PLister_Prefix.pch111be00994d1b541^bfb8480a94d1b541^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/sysadmin/Downloads/PLister/xcode/PLister_Prefix.pch0000000000000000^2655"ProcessPCH++ /var/folders/ks/9njtqd251jq_5hj78zgww14r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PLister_Prefix-fbwkomfyqamtymfqxpymdtuzcdwt/PLister_Prefix.pch.pth PLister_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sysadmin/Downloads/PLister/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-conversion -Wno-sign-conversion -iquote /Users/sysadmin/Downloads/PLister/xcode/./build/PLister.build/Debug/PLister.build/PLister-generated-files.hmap -I/Users/sysadmin/Downloads/PLister/xcode/./build/PLister.build/Debug/PLister.build/PLister-own-target-headers.hmap -I/Users/sysadmin/Downloads/PLister/xcode/./build/PLister.build/Debug/PLister.build/PLister-all-target-headers.hmap -iquote /Users/sysadmin/Downloads/PLister/xcode/./build/PLister.build/Debug/PLister.build/PLister-project-headers.hmap -iquote../../cinder_0.8.4_mac/include -iquote../include -I/Users/sysadmin/Downloads/PLister/xcode/build/Debug/include -I../../cinder_0.8.4_mac/boost -I/Users/sysadmin/Downloads/PLister/xcode/./build/PLister.build/Debug/PLister.build/DerivedSources/i386 -I/Users/sysadmin/Downloads/PLister/xcode/./build/PLister.build/Debug/PLister.build/DerivedSources -F/Users/sysadmin/Downloads/PLister/xcode/build/Debug --serialize-diagnostics /var/folders/ks/9njtqd251jq_5hj78zgww14r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PLister_Prefix-fbwkomfyqamtymfqxpymdtuzcdwt/PLister_Prefix.pch.dia -c /Users/sysadmin/Downloads/PLister/xcode/PLister_Prefix.pch -o /var/folders/ks/9njtqd251jq_5hj78zgww14r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PLister_Prefix-fbwkomfyqamtymfqxpymdtuzcdwt/PLister_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/ks/9njtqd251jq_5hj78zgww14r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PLister_Prefix-fbwkomfyqamtymfqxpymdtuzcdwt/PLister_Prefix.pch.d36"21572FB3-7335-42B5-8163-C42A3C130E11-
+
+CTouch /Users/sysadmin/Downloads/PLister/xcode/./build/Debug/PLister.app
+r0
+

@@ -1,5 +1,6 @@
 #include "cinder/app/AppBasic.h"
 #include "cinder/gl/gl.h"
+#include "PlistReader.h"
 
 using namespace ci;
 using namespace ci::app;
@@ -11,11 +12,16 @@ class PListerApp : public AppBasic {
 	void mouseDown( MouseEvent event );	
 	void update();
 	void draw();
+;
 };
 
 void PListerApp::setup()
 {
+    PlistReader r = PlistReader();
+    r.trace("Steps");
 }
+
+
 
 void PListerApp::mouseDown( MouseEvent event )
 {
