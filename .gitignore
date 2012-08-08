@@ -1,6 +1,6 @@
 
 
-xcode/build/*
+xcode/build/
 
 *.xcuserstate
 
