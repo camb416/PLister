@@ -63,6 +63,6 @@ XmlTree PlistReader::fetchTraverse(XmlTree t, string k)
 void PlistReader::CameronParse(XmlTree t){
     for( XmlTree::Iter item = t.begin(); item != t.end(); ++item ) {
         console() << "Node: " << item->getTag() << " Value: " << item->getValue() << endl;
-        if(t.hasChildren()
+        // if(t.hasChildren()
     }
 }
