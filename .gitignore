@@ -1,0 +1,16 @@
+
+*.xcuserstate
+
+*.xcbkptlist
+
+xcode/build/Debug/PLister.app/Contents/MacOS/PLister
+
+*.o
+
+*.dia
+
+*.o
+
+*.dep
+
+*.dat
