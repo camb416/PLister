@@ -18,13 +18,15 @@ class PListerApp : public AppBasic {
 void PListerApp::setup()
 {
     PlistReader r = PlistReader();
-    r.trace("Steps");
+  //  r.trace("Steps");
+  //  r.CameronParse();
 }
 
 
 
 void PListerApp::mouseDown( MouseEvent event )
 {
+    
 }
 
 void PListerApp::update()

@@ -5,6 +5,7 @@
 PlistReader::PlistReader()
 {
     list =  XmlTree(loadResource( "RECIPES.plist" ) );
+    CameronParse(list);
 }
 
 void PlistReader::trace(string k)
@@ -51,8 +52,17 @@ XmlTree PlistReader::fetchTraverse(XmlTree t, string k)
         newT = t.getChild("dict");
     
     t = newT;
-    stuff    for( XmlTree::Iter child = t.begin(); child != t.end(); ++child)
+    // stuff
+    for( XmlTree::Iter child = t.begin(); child != t.end(); ++child)
     {
         fetchTraverse(*child, k);
+    }
+}
+
+//XmlTree doc( loadFile( "C:\\somexml.xml" ) );
+void PlistReader::CameronParse(XmlTree t){
+    for( XmlTree::Iter item = t.begin(); item != t.end(); ++item ) {
+        console() << "Node: " << item->getTag() << " Value: " << item->getValue() << endl;
+        if(t.hasChildren()
     }
 }

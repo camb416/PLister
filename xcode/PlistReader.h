@@ -24,6 +24,7 @@ public:
     XmlTree fetch(string k);
     void traverse(XmlTree t);
     XmlTree fetchTraverse(XmlTree t, string k);
+    void CameronParse(XmlTree t);
     
 private:
     XmlTree list;
