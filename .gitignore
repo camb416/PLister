@@ -17,3 +17,19 @@ xcode/build/Debug/PLister.app/Contents/MacOS/PLister
 *.dep
 
 *.dat
+
+xcode/PLister.xcodeproj/project.xcworkspace/xcuserdata/sysadmin.xcuserdatad/UserInterfaceState.xcuserstate
+
+xcode/PLister.xcodeproj/project.xcworkspace/xcuserdata/sysadmin.xcuserdatad/UserInterfaceState.xcuserstate
+
+xcode/PLister.xcodeproj/xcuserdata/sysadmin.xcuserdatad/xcdebugger/Breakpoints.xcbkptlist
+
+xcode/build/PLister.build/Debug/PLister.build/Objects-normal/i386/PListerApp.o
+
+xcode/build/PLister.build/Debug/PLister.build/Objects-normal/i386/PlistReader.dia
+
+xcode/build/PLister.build/Debug/PLister.build/Objects-normal/i386/PlistReader.o
+
+xcode/build/PLister.build/Debug/PLister.build/PLister.dep
+
+xcode/build/PLister.build/Debug/PLister.build/build-state.dat
