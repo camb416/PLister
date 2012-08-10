@@ -20,6 +20,7 @@ void PListerApp::setup()
     PlistReader r = PlistReader();
   //  r.trace("Steps");
   //  r.CameronParse();
+    console() << "finished making this thing..." << endl;
 }
 
 

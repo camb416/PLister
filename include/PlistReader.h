@@ -12,22 +12,36 @@
 #include "cinder/app/AppBasic.h"
 #include "cinder/gl/gl.h"
 #include "cinder/Xml.h"
+#include <vector>
 
 using namespace ci;
 using namespace ci::app;
 using namespace std;
 
+struct StepModel{
+    string name;
+    string start_img;
+    string video;
+};
+
+struct RecipeModel{
+    string name;
+    string menu_img;
+    string end_img;
+    vector <StepModel> steps;
+};
+
+
+
 class PlistReader {
 public:
     PlistReader();
-    void trace(string k);
-    XmlTree fetch(string k);
-    void traverse(XmlTree t);
-    XmlTree fetchTraverse(XmlTree t, string k);
-    void CameronParse(XmlTree t);
-    
+    void parseRecipes();
+    void trace(XmlTree t);
+    vector<RecipeModel> recipeModels;
+   
 private:
-    XmlTree list;
+    XmlTree root;
 };
 
 
