@@ -16,7 +16,7 @@ PlistReader::PlistReader()
     XmlTree plist =  XmlTree(loadResource( "RECIPES.plist" ) );
     console() << "this is the tag name... " << plist.getTag() << "IS THIS A DOC ELEMENT OR WAHAT???? " << plist.isDocument() << endl;
     try {
-    root = plist.getChild("plist");
+        root = plist.getChild("plist");
     } catch(XmlTree::Exception e){
         console() << "darn" << endl;
     }
@@ -46,35 +46,59 @@ void PlistReader::parseRecipes(){
                     // its a key yo
                     whichKey = grandchild->getValue();
                     console() << "\t\t right after, whichkey is: " << whichKey << endl;
-
+                    
                 } else if(grandchild->getTag().compare("dict")==0){
                     // surely these are Steps??
                     
                     if(whichKey.compare("Steps")==0){
-                        console() << " I FOUND A DICT AND LO AND BEHOLD its a Steps thing." << endl;
+                        console() << " I FOUND A DICT AND LO AND BEHOLD its a Steps child... "<< grandchild->getValue() << endl;
+                        
                         // it must be time to dig through these bloomin STEPS.
-                       
-                        
                         // loop through em.
-                        XmlTree t3 = *grandchild;
                         
+                        XmlTree t3 = *grandchild;
+                        StepModel sm;
                         for( XmlTree::Iter greatChild = t3.begin(); greatChild != t3.end(); ++greatChild ){
                             XmlTree t4 = *greatChild;
-                             StepModel sm;
+                            
                             string stepKey;
-                            for( XmlTree::Iter baby = t4.begin(); baby != t4.end(); ++baby ){
-                                if(baby->getTag().compare("key")==0){
-                                    stepKey = baby->getValue();
-                                } else {
-                                    // then its likely a value
-                                    console() << "\t\t\t\t\t\t\t\t " << stepKey << "  Value: " << baby->getValue() << endl;
-
+                            
+                            
+                            
+                            if(greatChild->getTag().compare("dict")==0){
+                                
+                                for( XmlTree::Iter baby = t4.begin(); baby != t4.end(); ++baby ){
+                                    if(baby->getTag().compare("key")==0){
+                                        stepKey = baby->getValue();
+                                    } else {
+                                        // then its likely a value
+                                        console() << "\t\t\t\t\t\t\t\t " << stepKey << "  Value: " << baby->getValue() << endl;
+                                        if(stepKey.compare("start-image")==0){
+                                            sm.start_img = baby->getValue();
+                                        } else if(stepKey.compare("name")==0){
+                                            sm.name = baby->getValue();
+                                        } else if(stepKey.compare("video")==0){
+                                            sm.video = baby->getValue();
+                                        } else {
+                                            console() << "I got a property of a cookstep that was unexpected: " << stepKey << ", " << baby->getValue();
+                                        }
+                                        
+                                    }
                                 }
+                            } else if(greatChild->getTag().compare("key")==0){
+                                if(recipeModels.size()>0 && sm.name.compare("")!=0){
+                                    recipeModels.at(recipeModels.size()-1).steps.push_back(sm);
+                                }
+                                console() << " this should be the name of the step... "<< greatChild->getValue() << endl;
+                                sm.name = sm.video = sm.start_img = "";
+                                sm.name = greatChild->getValue();
                             }
-                            recipeModels.at(recipeModels.size()-1).steps.push_back(sm);
-                           // console() << "\t\t\t\t\t\t\t\t NOW I'm TRYING TO LOOP THROUGH tHE STEPS" << grandchild->getTag() << "  Value: " << grandchild->getValue() << endl;
+                            
                         }
-                        
+                        if(sm.name.compare("")!=0){
+                        console() << "putting the stepmodel in the vector..." << endl;
+                        recipeModels.at(recipeModels.size()-1).steps.push_back(sm);
+                        }
                         
                         
                         
@@ -85,16 +109,16 @@ void PlistReader::parseRecipes(){
                     // its some kinda value, son
                     console() << "\t\t\t whichkey is: " << whichKey << endl;
                     if(whichKey.compare("menu-image")==0){
-                            recipeModels.at(recipeModels.size()-1).menu_img = grandchild->getValue();
+                        recipeModels.at(recipeModels.size()-1).menu_img = grandchild->getValue();
                     } else if( whichKey.compare("end-image")==0){
-                            recipeModels.at(recipeModels.size()-1).end_img = grandchild->getValue();
+                        recipeModels.at(recipeModels.size()-1).end_img = grandchild->getValue();
                     } else{
                         // do nothing man
                         console() << "doing nothing" << endl;
                     }
                     
                 }
-
+                
             }
         }
         
